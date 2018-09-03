@@ -1,0 +1,64 @@
+@font-face {
+    font-family: SofiaRoughBlackOne;
+    src: url(../fonts/SofiaRough/SofiaRoughBlackOne.otf);
+}
+
+@font-face {
+    font-family: SofiaRoughScriptRegular;
+    src: url(../fonts/SofiaRough/SofiaRoughScriptRegular.otf);
+}
+
+#title {
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    height: 100vh;
+    color: #FFF;
+    text-align: center;
+
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#title h1 {
+    font-family: SofiaRoughBlackOne;
+    font-size: 10.5vw;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+    
+    display: flex;
+    justify-content: center;
+}
+
+#title p {
+    font-family: SofiaRoughScriptRegular;
+    text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    font-weight: 400;
+    /*background-color: rgba(19, 85, 102, 0.3);*/
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 4vw;
+
+}
+
+@media (min-width: 768px){
+    #title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #title h1 {
+        font-size: 5rem;
+    }
+}
+
+
+
+
+
